@@ -1,0 +1,40 @@
+# Composer dependencies
+/vendor/
+
+# Composer lock file (if you want to ignore it, but generally it's good to keep it)
+# composer.lock
+
+# PHPStorm project files
+.idea/
+
+# PHPUnit
+/phpunit.xml
+/phpunit.xml.dist
+
+# Logs
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE specific files
+*.sublime-project
+*.sublime-workspace
+*.vscode/
+*.code-workspace
+
+# Other files to ignore
+*.swp
+*.swo
+*.bak
+*.tmp
+*.temp
+*.cache
+*.session
+*.pid
+*.seed
+*.sqlite
+*.sqlite3
+*.db
+*.tgz

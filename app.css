@@ -1,0 +1,20 @@
+.app-container {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 40px;
+}
+.pdf-renter-box,
+.pdf-preview-box {
+    flex: 1;
+}
+
+.pdf-preview-box {
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.pdf-source-box {
+    flex: auto;
+    display: block;
+    width: 100%;
+}
